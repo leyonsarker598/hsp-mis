@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    max-width: 100%;
+    background-color: rgb(2, 90, 2);
+    height: 721px;
+}
+/*Topbar design*/
+.topBar{
+    
+}
+.topBar::after{
+    content: "";
+    width: 100%;
+    height:25px;
+    background-color:#e06464;
+}
+.topLeft{
+    margin-left: 100px;
+    float:left;
+    padding: 20px;
+}
+.logo img{
+    width: 40px;
+    height: auto;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.topLeft #p1 {
+    font-size: 20px;
+    color: white;
+    display: inline;
+}
+    .topLeft #p2 {
+        font-size: 15px;
+        width: 240px;
+        color: white;
+    }
+
+}
+.topRight{
+    float:right;
+    margin-right: 100px;
+    padding: 5px;
+}
+.topRight p {
+    color: #fff;
+    font-size: 20px;
+    display: inline;
+    float: right;
+    margin: 25px 120px 0px 0px;
+}
+/*designing Login Form*/
+.loginForm {
+    max-width: 445px;
+    height: 285px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 45px -10px black;
+}
+.formTitle p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-shadow: 0px 1px 1px #ddd;
+}
+.formLang{
+    max-width: 150px;
+    background-color: rgba(0, 128, 0, 0.452);
+    border-radius: 15px;
+    margin:auto;
+    border: 1px solid green;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.formLang a {
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    padding: 1px 12px;
+    
+}
+.formLang a:hover{
+    background-color:  rgba(2, 112, 2, 0.452);
+}
+/*User Input*/
+.inputHover{
+    border: 1px solid rgb(2, 90, 2);
+}
+.userName input{
+    width:100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.userPass input{
+    width:100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.loginBtn input{
+    width:100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #025A02;
+    color: #fff;
+    cursor: pointer;
+}
+.loginBtn input:hover{
+    background-color: #024702;
+}
+.forgotPass {
+    max-width: 150px;
+    margin: auto;
+}
+.forgotPass a{
+    text-decoration:none;
+    color: rgb(172, 169, 169);
+    font-size: 15px;
+}
+.forgotPass a:hover{
+    color: rgb(146, 143, 143);
+}
+.hr{
+    margin-top: 180px;
+    width:100%;
+    height:8px;
+    background-color: #e06464;
+}
+.footer p{
+    color: #fff;
+    padding:8px;
+    text-align: center;
+}
